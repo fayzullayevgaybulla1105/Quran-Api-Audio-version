@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+     list-style-type: none;
+    
+}
+
+
+body{
+
+    background-image: url('../image/495512ac87c5a2d671571d4d6b780790.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    background-attachment: fixed;
+    font-size: 30px; 
+
+}
+.wrapper{
+    background-color: rgba(114, 108, 108, 0.527);
+    
+
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+input{
+    padding: 10px;
+    font-size: 25px;
+    margin-top: 30px;
+
+}
+
+li{
+    margin-top: 20px;
+    padding: 10px;
+    text-align: right;
+}
+
+li h2{
+    font-size: 30px;
+}
+
+
+li h4{
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+
+li:hover{
+    background-color: rgba(0,0,0,0.5);
+
+}
+
+
+ul{
+    margin-top: 15px;
+}
+
+
+.active{
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+        font-weight: bold;
+}
+
+#inputElement{
+    background-color: rgb(114, 108, 108, 0.527);
+    color: white;
+    margin:0px auto;
+    width: 350px;
+    height: 70px;
+    font-size: 50px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+#ok{
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 1px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#inputElement::placeholder{
+    color: white;
+    font-size: 30px;
+    
+}
+
+#list{
+    overflow-y: scroll;
+    height: 650px;
+}
+
+#paused{
+        width: 70px;
+    height: 70px;
+    background-image: url('../image/pause-circle-regular.svg');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border-radius: 50px;
+}
+
+.wrapper #readAll{
+    width: 70px;
+    height: 70px;
+        background-image: url('../image/play-circle-solid.svg');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border-radius: 50px
+
+}
+
+#stoped{  
+    width: 70px;
+    height: 70px;
+    background-image: url('../image/stop-circle-regular.svg');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border-radius: 50px;
+
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 50px;
+}
